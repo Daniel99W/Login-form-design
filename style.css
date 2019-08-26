@@ -1,0 +1,95 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:raleway,sans-serif;
+}
+
+
+
+.bd{
+    background-color:#25282A;
+ /* background: repeat-linear-gradient(to left bottom, #232526 50%, #414345 50% );  */
+}
+
+.login-page{
+    position: relative;
+}
+
+
+h2{
+    color:white;
+    text-align:center;
+    font-weight: bold;
+
+}
+
+.login-container{
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+
+.login-container{
+    background-color:#B22222;
+    width:25rem;
+    margin: 0;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    position: absolute;
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius:1.8px;
+    box-shadow: 4px 4px 10px #1b1811;
+}
+
+.form-item {
+    display:block;
+    margin:1rem;
+}
+
+.form-item input{
+    border:1.5px solid gainsboro;
+    line-height: 2rem;
+    width:14rem;
+    border-radius:2px;
+    background-color: #F5F5F5;
+    font-size:1rem;
+    text-align:center;
+}
+
+.form-item input:focus{
+    width:16rem;
+    transition:.5s;
+    outline:none;
+    border:1px solid 	orangered;
+}
+
+
+
+.login-container .btn{
+    border:1px solid #800000;
+    border-radius:30px;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    background-color:#800000;
+    font-weight: bold;
+    color:white;
+
+}
+
+.login-container .btn:hover{
+    color:black;
+    background-color:white;
+    transition:.5s;
+    border:1px solid #B22222;
+    cursor:pointer;
+}
+
